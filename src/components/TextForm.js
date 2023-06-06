@@ -60,11 +60,13 @@ const Count=(text)=>{
   </div>    
     
     </form>
+    <div className="d-flex flex-column flex-md-row" >
 <button className="btn btn-success mx-2 my-2" onClick={changetouppercase}>Convert to UpperCase</button>
 <button className="btn btn-primary mx-2 my-2" onClick={changetolowercase}>Convert to LowerCase</button>
 <button className="btn btn-primary mx-2 my-2" onClick={trimspace}>Trim extra Spaces</button>
 <button className='btn btn-primary mx-2 my-2' onClick={trailingspace}>Remove Trailing Spaces</button>
 <button className='btn btn-primary mx-2 my-2' onClick={handlleoncopy}>Copy text</button>
+</div>
       <div className="container">
 
       <h1>Text Summary</h1>
