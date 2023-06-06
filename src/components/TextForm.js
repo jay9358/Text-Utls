@@ -60,11 +60,11 @@ const Count=(text)=>{
   </div>    
     
     </form>
-<button className="btn btn-success mx-2" onClick={changetouppercase}>Convert to UpperCase</button>
-<button className="btn btn-primary mx-2" onClick={changetolowercase}>Convert to LowerCase</button>
-<button className="btn btn-primary mx-2" onClick={trimspace}>Trim extra Spaces</button>
-<button className='btn btn-primary mx-2' onClick={trailingspace}>Remove Trailing Spaces</button>
-<button className='btn btn-primary mx-2' onClick={handlleoncopy}>Copy text</button>
+<button className="btn btn-success mx-2 my-2" onClick={changetouppercase}>Convert to UpperCase</button>
+<button className="btn btn-primary mx-2 my-2" onClick={changetolowercase}>Convert to LowerCase</button>
+<button className="btn btn-primary mx-2 my-2" onClick={trimspace}>Trim extra Spaces</button>
+<button className='btn btn-primary mx-2 my-2' onClick={trailingspace}>Remove Trailing Spaces</button>
+<button className='btn btn-primary mx-2 my-2' onClick={handlleoncopy}>Copy text</button>
       <div className="container">
 
       <h1>Text Summary</h1>
