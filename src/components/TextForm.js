@@ -32,6 +32,15 @@ const handlleoncopy=()=>{
   text.select();  
   navigator.clipboard.writeText(text.value)
 }
+const trailingspace=()=>{
+  let newtext=text.trimEnd();
+  settext(newtext);
+}
+const trimspace=()=>{
+let newtext=text.replace(/\s+/g,' ');
+settext(newtext);
+
+}
 const Count=(text)=>{
   var t = 0;
   if(text===""){
@@ -53,8 +62,11 @@ const Count=(text)=>{
     </form>
 <button className="btn btn-success mx-2" onClick={changetouppercase}>Convert to UpperCase</button>
 <button className="btn btn-primary mx-2" onClick={changetolowercase}>Convert to LowerCase</button>
+<button className="btn btn-primary mx-2" onClick={trimspace}>Trim extra Spaces</button>
+<button className='btn btn-primary mx-2' onClick={trailingspace}>Remove Trailing Spaces</button>
 <button className='btn btn-primary mx-2' onClick={handlleoncopy}>Copy text</button>
       <div className="container">
+
       <h1>Text Summary</h1>
       <p>{/*text.split(" ").length} words and {text.length */ Count(text)} characters</p>
       <p>{0.008*text.split(" ").length} minute read</p>
