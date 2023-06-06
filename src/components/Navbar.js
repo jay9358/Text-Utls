@@ -16,14 +16,12 @@ export default function Navbar(props) {
         <div className="collapse navbar-collapse center" id="navbarNav">
           <ul className="navbar-nav">
             <li className="nav-item">
-              <Link className="nav-link active" aria-current="page" to="/">Home</Link>
+              <Link className="nav-link fontsize" aria-current="page" to="/">Home</Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link" to="/about">About</Link>
+              <Link className="nav-link fontsize " to="/about">About</Link>
             </li>
-            <li className="nav-item">
-              <a className="nav-link" href="/">Pricing</a>
-            </li>
+      
 
           </ul>
       

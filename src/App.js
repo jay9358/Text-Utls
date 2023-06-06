@@ -67,7 +67,7 @@ function App() {
   return (
 <>
 <Router>
-<Navbar mode={mode} darkmode={handleonclick} enable={enable}/>
+<Navbar mode={mode} darkmode={handleonclick} enable={enable} title="TextUtls"/>
 <Alert alert={alert} />
 <div className="container my-4">
 <div className="container">

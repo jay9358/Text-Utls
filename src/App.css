@@ -21,7 +21,9 @@
 .center {
   justify-content: center;
 }
-
+.fontsize{
+  font-size: 1.1rem;
+}
 @font-face {
   font-family: gilory;
   src: url("/public/Gilroy-SemiBold.ttf");
